@@ -1,0 +1,43 @@
+,Switch ID,Port Number,Received Packets,Received Bytes,Sent Bytes,Sent Packets,Port alive Duration (S),Packets Rx Dropped,Packets Tx Dropped,Packets Rx Errors,Packets Tx Errors,Delta Received Packets,Delta Received Bytes,Delta Sent Bytes,Delta Sent Packets,Delta Port alive Duration (S),Delta Packets Rx Dropped, Delta Packets Tx Dropped,Delta Packets Rx Errors,Delta Packets Tx Errors,Connection Point,Total Load/Rate,Total Load/Latest,Unknown Load/Rate,Unknown Load/Latest,Latest bytes counter,is_valid,Table ID,Active Flow Entries,Packets Looked Up,Packets Matched,Max Size,Label,Binary Label
+0,discrete,discrete,foldcauchy,mielke,mielke,foldcauchy,burr12,discrete,discrete,discrete,discrete,wald,exponweib,halfgennorm,wald,discrete,discrete,discrete,discrete,discrete,discrete,dgamma,halfgennorm,dgamma,halfgennorm,dgamma,discrete,discrete,wald,betaprime,betaprime,discrete,discrete,discrete
+1,"of:000000000000000c    0.134945
+of:000000000000000a    0.125032
+of:0000000000000003    0.117682
+of:0000000000000001    0.111482
+of:0000000000000004    0.087463
+of:0000000000000007    0.077663
+of:0000000000000008    0.065263
+of:0000000000000005    0.060140
+of:000000000000000b    0.058767
+of:0000000000000002    0.056688
+of:0000000000000009    0.052864
+of:0000000000000006    0.052010
+Name: Switch ID, dtype: float64","Port#:2    0.318929
+Port#:1    0.317890
+Port#:3    0.244422
+Port#:4    0.118759
+Name: Port Number, dtype: float64","c=0.00, loc=-3.45, scale=1123.17","k=0.79, s=0.38, loc=-1242.78, scale=224953.37","k=1.31, s=0.35, loc=-128.94, scale=22776.26","c=0.01, loc=41.00, scale=1175.80","c=3.73, d=0.17, loc=-0.10, scale=88.71","0    1.0
+Name: Packets Rx Dropped, dtype: float64","0    1.0
+Name: Packets Tx Dropped, dtype: float64","0    1.0
+Name: Packets Rx Errors, dtype: float64","0    1.0
+Name: Packets Tx Errors, dtype: float64","loc=-32.33, scale=121.74","a=1.22, c=0.68, loc=-0.00, scale=55104.27","beta=0.48, loc=278.00, scale=5956.00","loc=-27.72, scale=108.90","5    0.854995
+4    0.145005
+Name: Delta Port alive Duration (S), dtype: float64","0    1.0
+Name: Delta Packets Rx Dropped, dtype: float64","0    1.0
+Name:  Delta Packets Tx Dropped, dtype: float64","0    1.0
+Name: Delta Packets Rx Errors, dtype: float64","0    1.0
+Name: Delta Packets Tx Errors, dtype: float64","2    0.298251
+1    0.253332
+3    0.249842
+4    0.153878
+5    0.044697
+Name: Connection Point, dtype: float64","a=0.44, loc=-0.00, scale=23707.59","beta=0.46, loc=-0.00, scale=5330.79","a=0.44, loc=-0.00, scale=23707.59","beta=0.46, loc=-0.00, scale=5330.79","a=0.44, loc=-0.00, scale=23707.59","True    1.0
+Name: is_valid, dtype: float64","0    1.0
+Name: Table ID, dtype: float64","loc=-8.03, scale=45.76","a=2.88, b=0.54, loc=-1.92, scale=761.56","a=2.08, b=0.55, loc=-2.27, scale=1120.51","-1    1.0
+Name: Max Size, dtype: float64","PortScan     0.283068
+TCP-SYN      0.270334
+Blackhole    0.248580
+Diversion    0.167502
+Overflow     0.030516
+Name: Label, dtype: float64","Attack    1.0
+Name: Binary Label, dtype: float64"
